@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo {
+  margin: ;
+
+}
+.titulo h1 {
+  color: black;
+  font-size: 50px;
+}
+
+.foto-predio {
+  width: 400px;
+  height: 500px;
+  margin: 23px 65px 0;
+}
+
+.sobre-texto {
+  margin: -400px 500px 0;
+}
