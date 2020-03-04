@@ -4,21 +4,21 @@
   box-sizing: border-box;
 }
 
-.titulo {
-  margin: ;
+.form-titulo {
+  margin: 0px 0px 0;
 
 }
-.titulo h1 {
+.form-titulo h1 {
   color: black;
   font-size: 50px;
 }
 
-.foto-predio {
+.form-predio {
   width: 400px;
   height: 500px;
   margin: 23px 65px 0;
 }
 
-.sobre-texto {
+.form-sobre {
   margin: -400px 500px 0;
 }
