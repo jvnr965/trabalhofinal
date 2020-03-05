@@ -1,24 +1,74 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-.form-titulo {
-  margin: 0px 0px 0;
-
-}
-.form-titulo h1 {
-  color: black;
-  font-size: 50px;
-}
 
 .form-predio {
-  width: 400px;
-  height: 500px;
-  margin: 23px 65px 0;
+  width: 350px;
+  height: 400px;
+  margin: 40px 65px 0;
+  box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
 }
 
 .form-sobre {
-  margin: -400px 500px 0;
+  width: 500px;
+  margin: -445px 450px 0;
+}
+
+.form-sobre h2 {
+  color: black;
+  font-size: 52px;
+}
+
+.form-sobre p {
+  font-size: 15px;
+}
+
+.form-predios {
+  width: 300px;
+  height: 300px;
+  margin: 60px 65px 0;
+  box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+}
+
+.form-predios p {
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  color: black;
+  font-size: 32px;
+  margin: -1px 0px 0;
+  box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+
+}
+
+.form-predios1 {
+  width: 300px;
+  height: 300px;
+  margin: -300px 515px 0;
+  box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+}
+
+.form-predios1 p {
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  color: black;
+  font-size: 32px;
+  margin: -1px 0px 0;
+  box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+}
+
+.form-predios2 {
+  width: 300px;
+  height: 300px;
+  margin: -300px 965px 0;
+  box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+}
+
+.form-predios2 p {
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  color: black;
+  font-size: 32px;
+  margin: -1px 0px 0;
+  box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
 }

@@ -1,5 +1,5 @@
 /* fontes */
-@import url(../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+@import url('../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf');
 
 body, html{
     margin: 0;
@@ -8,7 +8,7 @@ body, html{
 }
 
 body{
-    background-color: #969696;
+    background-color: white;
 }
 
 nav{
