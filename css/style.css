@@ -1,5 +1,5 @@
 /* fontes */
-@import url(../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 body, html{
     margin: 0;
@@ -7,8 +7,16 @@ body, html{
     height: 100%;
 }
 
+h1, p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
 body{
     background-color: #969696;
+    background-image: url('../assets/images/backgroundphoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav{
@@ -35,7 +43,6 @@ nav{
 
 #menu_itens_container p{
     margin: auto;
-    font-family: 'Oswald', sans-serif;
 }
 
 #menu_itens_container{
@@ -63,5 +70,30 @@ nav{
     margin: auto;
     color: #FF7A00;
     font-size: 22px;
-    font-family: 'Oswald', sans-serif;
+}
+
+
+/* main */
+
+
+#text_container{
+    width: 100%;
+    height: 90%;
+}
+
+#filler{
+    height: 37%;
+}
+
+#text_container h1{
+    color: white;
+    margin: 0;
+    font-size: 95px;
+    padding-left: 50px;
+}
+
+#text_main{
+    background-color: white;
+    width: fit-content;
+   
 }
