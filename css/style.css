@@ -7,22 +7,54 @@ body, html{
     height: 100%;
 }
 
-h1, p{
+h1, h2, p{
     font-family: 'Oswald', sans-serif;
-    color: white;
 }
 
-body{
+#body_index p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}   
+
+#body_index h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}   
+
+#body_projetos p{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}   
+
+#body_projetos h1{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}   
+
+#body_index{
     background-color: #969696;
     background-image: url('../assets/images/backgroundphoto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+#body_index nav{
+    box-shadow: none;
+}
+
+nav a:visited{
+    color: black;
+}
+
+#body_index nav a:visited{
+    color: white;
+}
+
 nav{
     display: flex;
     width: 100%;
     height: 10%;
+    box-shadow: 1px -4px 16px rgba(0, 0, 0, 0.25);
 }
 
 #logonav{
@@ -43,6 +75,10 @@ nav{
 
 #menu_itens_container p{
     margin: auto;
+}
+
+#menu_itens_container a{
+    text-decoration: none;
 }
 
 #menu_itens_container{
@@ -97,3 +133,57 @@ nav{
     width: fit-content;
    
 }
+
+/* projetos.html */
+
+#container_projetos{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: auto;
+    margin-top: 58.5px;
+}
+
+#container_projetos img{
+    max-height: 300px;
+}
+
+#body_projetos section{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.titulos{
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 32px;
+    margin: -1px 0px 0;
+}
+
+#container_projetos a{
+    text-decoration: none;
+}
+
+.form-predios {
+    width: 30%;
+    height: 370px;
+    max-width: 300px;
+    box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+  }
+
+  .form-predios1 {
+    width: 30%;
+    height: 370px;
+    max-width: 300px;
+    box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+  }
+
+  .form-predios2 {
+    width: 30%;
+    max-width: 300px;
+    height: 370px;
+    box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+  }
