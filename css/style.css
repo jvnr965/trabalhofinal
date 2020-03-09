@@ -309,4 +309,18 @@ nav{
         padding-left: 43px;
         line-height: 15px;
     }
+    
+    #container_projetos{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .form-predios, .form-predios1, .form-predios2{
+        width: auto;
+        height: auto;
+        margin-top: 5%;
+    }
+
   }
+
+  
