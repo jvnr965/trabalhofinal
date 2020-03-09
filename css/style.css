@@ -14,22 +14,22 @@ h1, h2, p{
 #body_index p{
     font-family: 'Oswald', sans-serif;
     color: white;
-}
+}   
 
 #body_index h1{
     font-family: 'Oswald', sans-serif;
     color: white;
-}
+}   
 
 #body_projetos p{
     font-family: 'Oswald', sans-serif;
     color: black;
-}
+}   
 
 #body_projetos h1{
     font-family: 'Oswald', sans-serif;
     color: black;
-}
+}   
 
 #body_index{
     background-color: #969696;
@@ -50,12 +50,20 @@ nav a:link{
     color: black;
 }
 
-#body_index nav a:visited{
-    color: white;
+#body_index nav a:link{
+    color: #fff;
 }
 
-#body_index nav a:link{
-    color: white;
+#body_index nav a:visited{
+    color: #FFF;
+}
+
+#body_index nav a:hover{
+    color: #FF7A00;
+}
+
+nav a:hover {
+    color: #FF7A00 !important;
 }
 
 nav{
@@ -85,7 +93,7 @@ nav{
 #menu_itens_container p{
     margin: auto;
     text-transform: capitalize;
-
+    
 }
 
 #menu_itens_container a{
@@ -119,7 +127,51 @@ nav{
     font-size: 22px;
 }
 
+#container_border:hover{
+  background-color: #FF7A00;
+}
 
+#container_border:hover h1{
+  color: white;
+}
+
+#container_janela{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#janela_contato{
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  background-color: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 0px 0px 1px 100vmax  rgba(0,0,0,0.6);
+}
+
+#janela_contato p{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+
+#janela_contato h1{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+
+#janela_contato p:nth-child(2){
+    text-transform: uppercase;
+}
 /* main */
 
 
@@ -150,7 +202,7 @@ nav{
 #text_main{
     background-color: white;
     width: fit-content;
-
+   
 }
 
 /* projetos.html */
@@ -205,4 +257,56 @@ nav{
     max-width: 300px;
     height: 370px;
     box-shadow: -1px 12px 15px rgba(0, 0, 0, 0.25);
+  }
+
+
+  /* media queries */
+
+  @media screen and (max-width: 768px){
+    #container_border h1{
+        font-size: 21px;
+    }
+
+    #text_container h1 {
+        line-height: 57px;
+        font-size: 49px;
+    }
+
+    #text_container p{
+        font-size: 18px;
+    }
+
+   
+  }
+  
+  
+  @media screen and (max-width: 425px){
+    #logonav{
+        width: 22%;
+    }
+
+    #container_contato{
+        width: 22%;
+    }
+
+    #menu_itens{
+        width: 56%;
+    }
+
+    #container_border h1{
+        font-size: 13px;
+
+    }
+
+    #text_container h1 {
+        line-height: 33px;
+        font-size: 28px;
+        padding-left: 43px;
+    }
+
+    #text_container p{
+        font-size: 13px;
+        padding-left: 43px;
+        line-height: 15px;
+    }
   }

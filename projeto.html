@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/alteracoes.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
   </head>
   <body>
     <nav>
@@ -11,16 +12,24 @@
       <div id="menu_itens">
           <div id="menu_itens_container">
               <p><a href="index.html">Inicio</a></p>
-              <p><a href="sobre.html">Sobre</p>
+              <p><a href="sobre.html">Sobre</a></p>
               <p><a href="projetos.html">Projetos</a></p>
           </div>
       </div>
-      <div id="container_contato">
+      <div id="container_contato" onclick="mostrarjanela()">
           <div id="container_border">
               <h1>Entre em Contato</h1>
           </div>
       </div>
     </nav>
+    <div id="container_janela" onclick="fecharjanela()">
+      <div id="janela_contato">
+        <h1>Telefone:</h1>
+        <p>(51) 99403-5051</p>
+        <h1>Email:</h1>
+        <p>vrengenhariacivil@email.com</p>
+      </div>
+    </div>
     <section>
 
           <div class="form-predio">
