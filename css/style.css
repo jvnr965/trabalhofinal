@@ -14,22 +14,22 @@ h1, h2, p{
 #body_index p{
     font-family: 'Oswald', sans-serif;
     color: white;
-}   
+}
 
 #body_index h1{
     font-family: 'Oswald', sans-serif;
     color: white;
-}   
+}
 
 #body_projetos p{
     font-family: 'Oswald', sans-serif;
     color: black;
-}   
+}
 
 #body_projetos h1{
     font-family: 'Oswald', sans-serif;
     color: black;
-}   
+}
 
 #body_index{
     background-color: #969696;
@@ -85,7 +85,7 @@ nav{
 #menu_itens_container p{
     margin: auto;
     text-transform: capitalize;
-    
+
 }
 
 #menu_itens_container a{
@@ -150,7 +150,7 @@ nav{
 #text_main{
     background-color: white;
     width: fit-content;
-   
+
 }
 
 /* projetos.html */
